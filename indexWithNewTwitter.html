@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link href="http://cdn.wso2.com/wso2/sites/all/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="http://cdn.wso2.com/wso2/sites/all/bootstrap/js/jquery.js"></script>
+    <script src="http://cdn.wso2.com/wso2/sites/all/bootstrap/js/bootstrap.js"></script>
+   <link href='https://fonts.googleapis.com/css?family=Cinzel:400,700|Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script src="http://cdn.wso2.com/wso2/sites/all/bootstrap/menu/jquery.bootstrap-dropdown-hover.js"></script>
+    <link href="http://c.content.wso2.com/sites/all/common/wso2-common-styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/twitter.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/election-style.css" rel="stylesheet" type="text/css" media="all" />
+        
+    </head>
+    <body class="cElection">
+        <div class="row cElectionIntro">
+            <div class="container">
+                <div class="col-sm-12 col-md-6 cElectionIntroLeft">
+                    <h1>WSO2<br/>ELECTION<br/>MONITOR</h1>
+                </div>
+                <div class="col-sm-12 col-md-6 cElectionIntroRight">
+                    <p>Every day, thousands of tweets and dozens of news articles about the US Election hit the Internet.</p>
+                    <p class="cRed">Will Clinton win? </p>
+                    <p class="cBlue">Will Trump?</p>
+                    <p>We can’t say for sure, but this is what the Internet is saying. </p>
+                </div>
+                <div class="col-sm-12 col-md-12 cElectionIntroBottom">
+                    <h2>At vero eos et accusamus et  iusto odio dignissimos</h2>
+                    <div class="col-sm-12 col-md-6 cPartyContainer cRepublican">
+                        <h3>Republican</h3>
+                        <div class="col-sm-12 col-md-6 cCandidate cSecondCandidate">
+                            <img src="images/trump.jpg"/>
+                            <p class="cCandidateName">TRUMP</p>
+                            <p class="cCandidateNumbers">55%</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 cCandidate cFirstCandidate">
+                             <img src="images/trump.jpg"/>
+                            <p class="cCandidateName">TRUMP</p>
+                            <p class="cCandidateNumbers">55%</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 cPartyContainer cDemocratic">
+                         <h3>Democratic</h3>
+                           <div class="col-sm-12 col-md-6 cCandidate cFirstCandidate">
+                             <img src="images/trump.jpg"/>
+                            <p class="cCandidateName">TRUMP</p>
+                            <p class="cCandidateNumbers">55%</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 cCandidate cSecondCandidate">
+                            <img src="images/trump.jpg"/>
+                            <p class="cCandidateName">TRUMP</p>
+                            <p class="cCandidateNumbers">55%</p>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cWhiteSection">
+            <div class="container">
+                <h2>Twitter Stream Analytics</h2>
+                <p>We use both general election hashtags and those that are popular for the candidates currently in the rates. For order tweets by their popularity below 
+                    ( except live view) a variant of the HackerNews algorithm, which considers interactions ( retweets etc)and age of the tweet. 
+                </p>
+                <div class="cTwitterContainer">
+                <div class="col-sm-12 col-md-4">
+                    <div class="cTitle cLive">Live </div>
+                    <div class="cTwitterWidgetContainer">
+                        <ol class="timeline-TweetList">
+                            <li class="timeline-TweetList-tweet customisable-border">
+                                <div class="timeline-Tweet">
+                                    <div class="timeline-Tweet-brand u-floatRight">
+                                        <div class="Icon Icon--twitter"></div>
+                                    </div>
+                                    <div class="timeline-Tweet-author">
+                                        <div class="TweetAuthor">
+                                            <a class="TweetAuthor-link Identity u-linkBlend" href="https://twitter.com/DenaliNPS">
+                                                <span class="TweetAuthor-avatar Identity-avatar">
+                                                  <img class="Avatar" alt="" src="https://pbs.twimg.com/profile_images/625002681900208129/vjrhX5Rt_bigger.png">
+                                                </span>
+                                                <span class="TweetAuthor-name Identity-name customisable-highlight" title="Denali National Park" data-scribe="element:name">Denali National Park</span>
+                                                <span class="TweetAuthor-verifiedBadge" data-scribe="element:verified_badge"><div class="Icon Icon--verified " aria-label="Verified Account" title="Verified Account" role="img"></div><b class="u-hiddenVisually">✔</b></span>
+                                                <span class="TweetAuthor-screenName Identity-screenName" title="&lrm;@DenaliNPS" data-scribe="element:screen_name">&lrm;@DenaliNPS</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <p class="timeline-Tweet-text" lang="en" dir="ltr">Denali recognizes Native Alaskan Abbie Joseph during women's history month: <a href="https://t.co/VYh5JVNcHv" rel="nofollow" dir="ltr" data-expanded-url="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" class="link customisable" target="_blank" title="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" data-scribe="element:url"><span class="u-hiddenVisually">http://www.</span>nps.gov/articles/akwom<span class="u-hiddenVisually">en-abbie-joseph.htm&nbsp;</span>…</a> <a href="https://twitter.com/hashtag/findyourpark?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">findyourpark</span></a> <a href="https://twitter.com/hashtag/denalihistory?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">denalihistory</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-TweetList-tweet customisable-border">
+                                <div class="timeline-Tweet">
+                                    <div class="timeline-Tweet-brand u-floatRight">
+                                        <div class="Icon Icon--twitter"></div>
+                                    </div>
+                                    <div class="timeline-Tweet-author">
+                                        <div class="TweetAuthor">
+                                            <a class="TweetAuthor-link Identity u-linkBlend" href="https://twitter.com/DenaliNPS">
+                                                <span class="TweetAuthor-avatar Identity-avatar">
+                                                  <img class="Avatar" alt="" src="https://pbs.twimg.com/profile_images/625002681900208129/vjrhX5Rt_bigger.png">
+                                                </span>
+                                                <span class="TweetAuthor-name Identity-name customisable-highlight" title="Denali National Park" data-scribe="element:name">Denali National Park</span>
+                                                <span class="TweetAuthor-verifiedBadge" data-scribe="element:verified_badge"><div class="Icon Icon--verified " aria-label="Verified Account" title="Verified Account" role="img"></div><b class="u-hiddenVisually">✔</b></span>
+                                                <span class="TweetAuthor-screenName Identity-screenName" title="&lrm;@DenaliNPS" data-scribe="element:screen_name">&lrm;@DenaliNPS</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <p class="timeline-Tweet-text" lang="en" dir="ltr">Denali recognizes Native Alaskan Abbie Joseph during women's history month: <a href="https://t.co/VYh5JVNcHv" rel="nofollow" dir="ltr" data-expanded-url="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" class="link customisable" target="_blank" title="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" data-scribe="element:url"><span class="u-hiddenVisually">http://www.</span>nps.gov/articles/akwom<span class="u-hiddenVisually">en-abbie-joseph.htm&nbsp;</span>…</a> <a href="https://twitter.com/hashtag/findyourpark?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">findyourpark</span></a> <a href="https://twitter.com/hashtag/denalihistory?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">denalihistory</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="timeline-TweetList-tweet customisable-border">
+                                <div class="timeline-Tweet">
+                                    <div class="timeline-Tweet-brand u-floatRight">
+                                        <div class="Icon Icon--twitter"></div>
+                                    </div>
+                                    <div class="timeline-Tweet-author">
+                                        <div class="TweetAuthor">
+                                            <a class="TweetAuthor-link Identity u-linkBlend" href="https://twitter.com/DenaliNPS">
+                                                <span class="TweetAuthor-avatar Identity-avatar">
+                                                  <img class="Avatar" alt="" src="https://pbs.twimg.com/profile_images/625002681900208129/vjrhX5Rt_bigger.png">
+                                                </span>
+                                                <span class="TweetAuthor-name Identity-name customisable-highlight" title="Denali National Park" data-scribe="element:name">Denali National Park</span>
+                                                <span class="TweetAuthor-verifiedBadge" data-scribe="element:verified_badge"><div class="Icon Icon--verified " aria-label="Verified Account" title="Verified Account" role="img"></div><b class="u-hiddenVisually">✔</b></span>
+                                                <span class="TweetAuthor-screenName Identity-screenName" title="&lrm;@DenaliNPS" data-scribe="element:screen_name">&lrm;@DenaliNPS</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <p class="timeline-Tweet-text" lang="en" dir="ltr">Denali recognizes Native Alaskan Abbie Joseph during women's history month: <a href="https://t.co/VYh5JVNcHv" rel="nofollow" dir="ltr" data-expanded-url="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" class="link customisable" target="_blank" title="http://www.nps.gov/articles/akwomen-abbie-joseph.htm" data-scribe="element:url"><span class="u-hiddenVisually">http://www.</span>nps.gov/articles/akwom<span class="u-hiddenVisually">en-abbie-joseph.htm&nbsp;</span>…</a> <a href="https://twitter.com/hashtag/findyourpark?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">findyourpark</span></a> <a href="https://twitter.com/hashtag/denalihistory?src=hash" data-query-source="hashtag_click" class="PrettyLink hashtag customisable" dir="ltr" rel="tag" data-scribe="element:hashtag"><span class="PrettyLink-prefix">#</span><span class="PrettyLink-value">denalihistory</span></a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                     <div class="cTitle">Popular in #uselection2016 </div>
+                     <div class="cTwitterWidgetContainer">
+
+                     </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="cTitle">Popular from candidates</div>
+                   <div class="cTwitterWidgetContainer">Tiwtter feed</div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cRedSection">
+            <div class="container">
+                <div class="col-sm-12 col-md-4">
+                    <h2>What the <br/>Community Says</h2>
+                    <p>What does each candidate's community talks about? Following word clouds shows most used words in each community. </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h2>Mapping Twitter <br/>Interaction</h2>
+                    <p>Supporter numbers aren’t everything. There’s a complex geography to how Twitter communities interact, especially around an election. In the following community graph, each node is a tweep and each link is interactions (e.g. retweets). Here, the larger nodes represent accounts getting lots of attention - lots of likes, lots of retweets. Their color defines who they vote for, or at least who they tweet about the most. </p>
+                    <p>People share lot of links via retweets. On the right hand panel are the links being shared most around by this community. </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h2>Media <br/>Sentiment</h2>
+                    <p>Historically, the media has shaped how people think - and, conversely, turned out to be a good indicator of public opinion. We tap into Google News to find the most relevant news articles, analyze the sentiment therein, and map it. Left hand side shows how sentiments changed over time and on the right are the articles we’re looking at right now. </p>
+                </div>
+            </div>            
+        </div>
+    </body>
+</html>

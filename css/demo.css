@@ -85,7 +85,7 @@ a {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #ecf0f1;
+    border: 1px solid #ccc;
     position: relative;
     }
 
@@ -282,7 +282,7 @@ h3{
     color: #0084B4;
 }
 .twitter-text{
-    color: #F3F3F3;
+    color: #666;
 }
 .retweet-user{
     margin: 0px 0px 5px 0px;
@@ -447,4 +447,25 @@ h3{
     float:left;
     width: 85%;
     height:200px;
+}
+#wc-container3{
+    float:left;
+    width: 85%;
+    height:200px;
+}
+#wc-container4{
+    float:left;
+    width: 85%;
+    height:200px;
+}
+.pb{
+    color:#999;
+}
+.related p a{
+    padding:10px;
+    margin:0px 10px;
+    background:rgba(0, 0, 0, 0.2);
+}
+.related p a:hover{
+    background:rgba(0, 0, 0, 0.1);
 }

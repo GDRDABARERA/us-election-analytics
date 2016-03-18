@@ -1,0 +1,15 @@
+<%
+var authenticatingString = "YWRtaW46dXNlckBkYXM=";
+var NodeUrl  = "https://52.77.25.83:9453/analytics/tables/ELECNODE";
+var EdgeUrl = "https://52.77.25.83:9453/analytics/tables/ELECEDGE";
+var data = {};
+var auth="Basic "+authenticatingString ;
+var header={"Authorization":auth};
+var twitterJson1 = get(NodeUrl,data,header,"jsorn");
+var 
+print(twitterJson);
+
+
+
+
+%>

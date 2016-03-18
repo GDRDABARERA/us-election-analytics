@@ -1,0 +1,14 @@
+<% 
+
+
+    var data = require('../config.json'); 
+    var db = new Database(data.pmtdb.databaseurl+data.pmtdb.databasename, data.pmtdb.username, data.pmtdb.password);
+    var result = db.query("SELECT * FROM googleLatestNews");
+    var data = [];
+    for (var i in result) {
+        data.push('<li><div class="bubble2"><div class="bubble-container2">'+result[i].Discription +'</div></div></li>');
+	
+    }
+    db.close();
+    print(stringify(data));  
+%>
